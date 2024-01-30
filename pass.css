@@ -1,0 +1,84 @@
+td {
+  text-align: center;
+  vertical-align: top;
+  width: 120px;
+}
+
+p {
+  height: 8px;
+}
+
+div {
+  width: 285.509px;
+  height: 179.9035px;
+  border-style: solid;
+  padding: 5px;
+}
+
+span {
+  width: 285px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#uplpho {
+  display: block;
+  margin-left: auto;
+  width: 120px;
+  height: 100px;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#slogan {
+  border-bottom-style: dotted;
+  border-width: 3px;
+  border-color: black;
+  font-size: 25px;
+}
+
+#appcia {
+  display: inline;
+}
+
+
+#bold {
+  font-size: 15px;
+  width: 20px; 
+  vertical-align: middle;
+}
+
+.aep {
+  height: 120px;
+}
+
+#tick {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#img2 {
+  width: 70px;
+  height: 70px;
+}
+
+#fin {
+  display: block;
+  margin-left: auto;
+  width: 120px;
+  height: 100px;
+  margin-right: auto;
+}
+
+h1,p {
+  margin-top: 7px;
+}
+
+#reg {
+  font-size: 25px;
+}
