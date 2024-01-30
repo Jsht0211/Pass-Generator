@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pass Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Pass Generator</h1>
+  <form action="pass.php" method="post" id="form" enctype="multipart/form-data">
+    <table>
+      <tr>
+        <td>
+          <label for="word">Type of pass:</label>
+        </td>
+        <td>
+          <input type="text" id="word" name="word" value="'hey'-word">
+          <p>pass</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="association">Association:</label>
+        </td>
+        <td>
+          <input type="text" id="association" name="association" value="Hey">
+          <p>Association</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="onername">Name of owner:</label>
+        </td>
+        <td>
+          <input type="text" id="onername" name="onername" value="Tony">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="admission" id="paddown">Admitted by:</label>
+        </td>
+        <td>
+          <input type="text" id="admission" name="admission" value="Jolex,Jolex Au,Jolex Au Yeung,Jolex Yeung">
+          <p>(If there is more than one person,please seperate them with commas.Max. 6 people)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="slogan">Slogan:</label>
+        </td>
+        <td>
+          <textarea id="slogan" name="slogan">Let's...</textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bgcolor">Background colour:</label>
+        </td>
+        <td>
+          <input type="color" id="bgcolor" name="bgcolor" value="#ffffff">
+          <p>Background colour</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bdcolor">Border colour:</label>
+        </td>
+        <td>
+          <input type="color" id="bdcolor" name="bdcolor" value="#000000">
+          <p>Border colour</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bdwidth">Border width:</label>
+        </td>
+        <td>
+          <input type="text" id="bdwidth" name="bdwidth" value="12px">
+          <p>(12px is recommended)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="fontcolor">Font colour:</label>
+        </td>
+        <td>
+          <input type="color" id="fontcolor" name="fontcolor" value="#000000">
+          <p>Font colour</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="pit">Choose a picture:</label>
+        </td>
+        <td>
+          <input type="file" id="pit" name="pit" accept="image/png, image/jpeg"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="font">Choose a font:</label>
+        </td>
+        <td>
+          <select name="font" id="font">
+            <option style='font-family: Impact, sans-serif;' value="Impact">Impact</option>
+            <option style='font-family: "Trebuchet MS", sans-serif;' value='"Trebuchet MS"'>Trebuchet MS</option>
+            <option style='font-family: Arial, sans-serif;' value="Arial">Arial</option>
+            <option style='font-family: Helvetica, Arial, sans-serif;' value="Helvetica,Arial">Helvetica</option>
+            <option style='font-family: Verdana, Geneva, sans-serif;' value="Verdana, Geneva">Verdana</option>
+            <option style='font-family: Tahoma, Geneva, sans-serif;' value="Tahoma, Geneva">Tahoma</option>
+            <option style='font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;' value='Lucida Sans Unicode", "Lucida Grande"'>Lucida Sans Unicode</option>
+          </select>
+
+          <p>(Copy the names from <a href="https://fonts.google.com/?preview.text='hey'-word pass">this website</a>)
+        </td>
+      </tr>
+      <tr>
+        <td> 
+          <button type="button" id="submitbtn" >Generate</button>
+        </td>
+      </tr>
+
+    </table>   
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
